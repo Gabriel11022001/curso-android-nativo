@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ConversasFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_titulo_fragment_conversas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conversas"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/edt_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu nome..."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_titulo_fragment_conversas"
+            android:layout_margin="16dp" />
+
+        <Button
+            android:id="@+id/btn_cadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"
+            app:layout_constraintStart_toStartOf="@id/edt_nome"
+            app:layout_constraintEnd_toEndOf="@id/edt_nome"
+            app:layout_constraintTop_toBottomOf="@id/edt_nome" />
+
+        <Button
+            android:id="@+id/btn_teste_ir_fragment_chamados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir tela chamados"
+            app:layout_constraintStart_toStartOf="@id/btn_cadastrar"
+            app:layout_constraintEnd_toEndOf="@id/btn_cadastrar"
+            app:layout_constraintTop_toBottomOf="@id/btn_cadastrar" />
+
+        <TextView
+            android:id="@+id/txt_nome_informado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_teste_ir_fragment_chamados"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">calculadora-imc</string>
+    <string name="txt_hint_campo_peso">Peso</string>
+    <string name="txt_hint_campo_altura">Altura</string>
+    <string name="txt_lembrete">Digite (.) para casas decimais!</string>
+    <string name="txt_btn_calcular">Calcular</string>
+</resources>

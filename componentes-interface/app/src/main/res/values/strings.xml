@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">componentes-interface</string>
+    <!-- Nesse arquivo ficam as minhas strings, basicamente um arquivo xml
+    para guardar todos os textos da minha aplicação que eu utilizo em vários lugares, assim,
+    eu posso reutilizar esses textos -->
+    <string name="clique_para_jogar">Clique para jogar</string>
+    <string name="segundo_btn">Segundo botão</string>
+    <string name="terceiro_botao">Terceiro botão</string>
+    <string name="lorem_ipsum_simplesmente_uma_simula_o_de_texto_da_ind_stria_tipogr_fica_e_de_impressos_e_vem_sendo_utilizado_desde_o_s_culo_xvi_quando_um_impressor_desconhecido_pegou_uma_bandeja_de_tipos_e_os_embaralhou_para_fazer_um_livro_de_modelos_de_tipos_lorem_ipsum_sobreviveu_n_o_s_a_cinco_s_culos_como_tamb_m_ao_salto_para_a_editora_o_eletr_nica_permanecendo_essencialmente_inalterado_se_popularizou_na_d_cada_de_60_quando_a_letraset_lan_ou_decalques_contendo_passagens_de_lorem_ipsum_e_mais_recentemente_quando_passou_a_ser_integrado_a_softwares_de_editora_o_eletr_nica_como_aldus_pagemaker">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</string>
+    <string name="teste">Teste</string>
+    <string name="btn_de_teste">Botão de teste</string>
+</resources>

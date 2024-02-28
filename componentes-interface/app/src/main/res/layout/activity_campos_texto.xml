@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CamposTextoActivity">
+
+    <!--
+        O EditText é o elemento de layout
+        que representa uma caixa de texto
+        android:hint -> define o placeholder do campo
+    -->
+    <EditText
+        android:id="@+id/edt_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="16dp"
+        android:hint="Digite seu nome..."
+        android:inputType="text" />
+
+    <!--
+        android:drawableEnd -> adicionar um ícone no final
+        do campo
+        android:drawablePadding -> adicionar um espaçamento
+        do ícone para o espaço interno do campo
+    -->
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_nome"
+        android:layout_margin="16dp"
+        android:hint="Digite seu e-mail..."
+        android:inputType="textEmailAddress"
+        android:drawableEnd="@drawable/ic_email_campo"
+        android:drawablePadding="8dp" />
+
+    <EditText
+        android:id="@+id/edt_data_nascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_email"
+        android:layout_margin="16dp"
+        android:hint="Digite sua data de nascimento..."
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edt_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_data_nascimento"
+        android:layout_margin="16dp"
+        android:hint="Digite sua senha..."
+        android:inputType="textPassword" />
+
+    <!--
+        app:endIconMode="password_toggle" -> adiciona
+        o olhinho de visualizar/esconder no final do campo
+    -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout_sobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_senha"
+        android:layout_margin="16dp"
+        app:endIconMode="password_toggle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_sobre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sobre" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="20dp"
+        android:text="Cadastrar"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

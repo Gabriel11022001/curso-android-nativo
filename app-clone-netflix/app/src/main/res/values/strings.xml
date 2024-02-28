@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">app-clone-netflix</string>
+    <string name="titulo_netflix">Netflix</string>
+    <string name="txt_series">Series</string>
+    <string name="txt_filmes">Filmes</string>
+    <string name="txt_minha_lista">Minha lista</string>
+    <string name="txt_violencia">Violência</string>
+    <string name="txt_empolgante">Empolgante</string>
+    <string name="txt_sinistro">Sinistro</string>
+    <string name="txt_minha_lista_filmes">Minha lista</string>
+</resources>
