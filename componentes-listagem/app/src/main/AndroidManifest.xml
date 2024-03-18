@@ -12,6 +12,12 @@
         android:theme="@style/Theme.Appcomponenteslistagem"
         tools:targetApi="31">
         <activity
+            android:name=".TesteLinearLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlimentosActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
